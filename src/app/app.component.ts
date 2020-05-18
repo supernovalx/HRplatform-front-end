@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import '@balkangraph/orgchart.js';
+import '../../node_modules/@balkangraph/orgchart.js/orgchart.js';
 
 @Component({
   selector: 'app-root',
