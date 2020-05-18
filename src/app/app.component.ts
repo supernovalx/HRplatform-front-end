@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 //import '../../node_modules/@balkangraph/orgchart.js/orgchart.js';
+import '@balkangraph/orgchart.js';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent {
   constructor() {}
 
   ngOnInit() {
-    /*var chart = new OrgChart(document.getElementById('tree'), {
+    var chart = new OrgChart(document.getElementById('tree'), {
       nodeBinding: {
         field_0: 'name',
         field_1: 'title',
@@ -68,6 +69,6 @@ export class AppComponent {
         title: 'Developer',
         img: 'https://cdn.balkan.app/shared/8.jpg',
       },
-    ]);*/
+    ]);
   }
 }
